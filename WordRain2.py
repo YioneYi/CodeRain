@@ -1,21 +1,13 @@
 import random
- 
 import pygame
  
 FONT_PX = 15
- 
 pygame.init()
- 
 winSur = pygame.display.set_mode((640, 480))
- 
 font = pygame.font.SysFont("fangsong", 20)
- 
-bg_suface = pygame.Surface((640, 480), flags=pygame.SRCALPHA)
- 
-pygame.Surface.convert(bg_suface)
- 
-bg_suface.fill(pygame.Color(0, 0, 0, 13))
- 
+bg_suface = pygame.Surface((640, 480), flags=pygame.SRCALPHA) 
+pygame.Surface.convert(bg_suface) 
+bg_suface.fill(pygame.Color(0, 0, 0, 13)) 
 winSur.fill((0, 0, 0))
  
 # 相关参数
